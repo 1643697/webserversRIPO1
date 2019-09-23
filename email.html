@@ -7,17 +7,9 @@
         
         <h1>Email Sign Up for Daily Facts</h1>
 
-        <!----- <script type="text/javascript" src="scripts.js"></script>--->
-        <script>
-                function lettersOnly(input) 
-                {
-                    var regex = /[^a-z]/gi;
-                    input.value = input.value.replace(regex, "");
-                }
-         </script>
-                
-
-  
+        <script src="Javascripts/lettersOnly.js">
+        </script>
+        
         <br>First Name:<br>
         <input id="firstname" placeholder="firstname" onkeyup="lettersOnly(this)">
         
