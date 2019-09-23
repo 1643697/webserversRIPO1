@@ -4,17 +4,29 @@
         <title>Sign Up</title>
     </head>
     <body>
+        
         <h1>Email Sign Up for Daily Facts</h1>
 
-        First Name:<br>
-        <input type=”text” size=”24″ name=”FirstName”><br><br>
+        <!----- <script type="text/javascript" src="scripts.js"></script>--->
+        <script>
+                function lettersOnly(input) 
+                {
+                    var regex = /[^a-z]/gi;
+                    input.value = input.value.replace(regex, "");
+                }
+         </script>
+                
 
-        Last Name:<br>
-        <input type=”text” size=”24″ name=”LastName”><br><br>
+  
+        <br>First Name:<br>
+        <input id="firstname" placeholder="firstname" onkeyup="lettersOnly(this)">
+        
+        <br>Last Name:<br>
+        <input id="lastname" placeholder="lastname" onkeyup="lettersOnly(this)"> 
 
-        E-mail: <br> <input type="email" name="emailaddress"> <br><br>
+        <br>E-mail: <br> <input type="email" name="emailaddress">
 
-        Message:<br> <textarea name=”VisitorComment” rows=”4″ cols=”20″>
+        <br>Message:<br> <textarea name=”VisitorComment” rows=”4″ cols=”20″>
 
         </textarea><br><br> 
         
