@@ -11,18 +11,20 @@
         </script>
         
         <br>First Name:<br>
-        <input id="firstname" placeholder="firstname" onkeyup="lettersOnly(this)">
+        <input name="first" id="firstname" placeholder="firstname" onkeyup="lettersOnly(this)">
         
         <br>Last Name:<br>
-        <input id="lastname" placeholder="lastname" onkeyup="lettersOnly(this)"> 
+        <input name="last" id="lastname" placeholder="lastname" onkeyup="lettersOnly(this)"> 
 
-        <br>E-mail: <br> <input type="email" name="emailaddress">
+        <br>E-mail: <br> 
 
-        <br>Message:<br> <textarea name=”VisitorComment” rows=”4″ cols=”20″>
+        <input name="e-mail" input type="email" name="emailaddress">
 
-        </textarea><br><br> 
+        <br>Message:<br> 
         
-        <button type=”button” onclick="alert('THANK YOU!')"> Confirm </button>
+        <textarea name=”VisitorComment” rows=”4″ cols=”20″> </textarea><br><br> 
+        
+        <button type=”button” name="confbutton" onclick="alert('THANK YOU!')"> Confirm </button>
 
         <br>
         <br>
@@ -31,8 +33,7 @@
         <br>
         <a href="index.html">Dog facts</a>
         <br>
-       
-       
+        
     </body>
 </html>
 
