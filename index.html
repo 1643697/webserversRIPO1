@@ -28,6 +28,19 @@
                 <li> Poodles</li>
             </ol>
 
+        <button>Switch Background</button>
+        <script type="text/javascript">
+            var color = ["#222f3e","#f368e0","10ac84"];
+            var i = 0;
+            document.querySelector("button").addEventListener("click",
+            function(){
+                i=i<color.length ? ++i : 0;
+                document.querySelector("body").style.background = color[i]
+            })
+            
+        </script>
+        <br>
+
         <a href="next.html">Cat facts</a>
         <br>
         <a href="email.html">Email Sign up</a>
