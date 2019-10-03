@@ -1,0 +1,29 @@
+
+h1 {
+    margin:0px;
+    color:rgb(0, 0, 0);
+    background-color: rgb(102, 189, 109);
+    text-align:center;
+}
+h2{
+    margin:0px;
+    color:rgb(0, 0, 0);
+    background-color: rgb(102, 189, 109)
+}
+h3 {
+    margin:0px;
+    color:rgb(247, 126, 12);
+    background-color: rgb(102, 189, 109);
+    font-size: 20px;
+}
+h4{
+    margin:0px;
+    color:rgb(0, 0, 0);
+    background-color: rgb(102, 189, 109)
+}
+
+p{
+    margin:0px;
+    color:rgb(0, 0, 0);
+    background-color: rgb(102, 189, 109)
+}
