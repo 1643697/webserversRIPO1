@@ -32,9 +32,9 @@
         </script>
         <br>
        
-        <a href="index.html">Dog facts</a>
+        <a href="index.php">Dog facts</a>
         <br>
-        <a href="email.html">Email Sign up</a>
+        <a href="email.php">Email Sign up</a>
         <br>
        <a href="https://coleandmarmalade.com/2018/12/31/25-interesting-facts-about-cats-you-may-not-have-known/" target="_blank">link that i used for my Cat facts</a>
     </body>

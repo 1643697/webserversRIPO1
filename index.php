@@ -47,9 +47,9 @@
         </script>
         <br>
 
-        <a href="next.html">Cat facts</a>
+        <a href="next.php">Cat facts</a>
         <br>
-        <a href="email.html">Email Sign up</a>
+        <a href="email.php">Email Sign up</a>
         <br>
        <a href="https://www.cesarsway.com/10-facts-you-may-not-know-about-dogs/" target="_blank">link that i used for my dog facts</a>
     </body>

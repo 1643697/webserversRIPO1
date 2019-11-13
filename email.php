@@ -30,9 +30,9 @@
         <br>
         <br>
 
-        <a href="next.html">Cat facts</a>
+        <a href="next.php">Cat facts</a>
         <br>
-        <a href="index.html">Dog facts</a>
+        <a href="index.php">Dog facts</a>
         <br>
         
     </body>
