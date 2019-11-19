@@ -8,24 +8,28 @@
     <body>
         
         <h1>Email Sign Up for Daily Facts</h1>
-
+        
         <script src="Javascripts/lettersOnly.js"></script>
         
-        <br>First Name:<br>
-        <input name="first" id="firstname" placeholder="firstname" onkeyup="lettersOnly(this)">
-        
-        <br>Last Name:<br>
-        <input name="last" id="lastname" placeholder="lastname" onkeyup="lettersOnly(this)"> 
+        <form name = "webinfo" action="action.php" method="POST">
 
-        <br>E-mail: <br> 
+            <br>First Name:<br>
+            <input name="firstname" id="firstname" placeholder="firstname" onkeyup="lettersOnly(this)">
+            
+            <br>Last Name:<br>
+            <input name="lastname" id="lastname" placeholder="lastname" onkeyup="lettersOnly(this)"> 
 
-        <input name="e-mail" input type="email" name="emailaddress">
+            <br>E-mail: <br> 
 
-        <br>Message:<br> 
-        
-        <textarea name=”VisitorComment” rows=”4″ cols=”20″> </textarea><br><br> 
-        
-        <button type=”button” name="confbutton" onclick="alert('THANK YOU!')"> Confirm </button>
+            <input name="email" input type="email">
+
+            <br>Message:<br> 
+            
+            <textarea name=”comment” rows=”4″ cols=”20″> </textarea><br><br> 
+            
+            <input class="button" type="submit" value="Submit Inscription"> <!--checks function to verify for empty form-->
+
+        </form>
 
         <br>
         <br>
