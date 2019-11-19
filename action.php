@@ -29,7 +29,7 @@
                 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
                 //insert data to db
-                $sql = "INSERT INTO clients (firstname, lastname, email, comment)
+                $sql = "INSERT INTO users (firstname, lastname, email, comment)
                     VALUES ('{$firstname}', '{$lastname}', '{$email}', '{$comment}')";
 
                  //confirmation
