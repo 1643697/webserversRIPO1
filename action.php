@@ -32,7 +32,12 @@
                 $sql = "INSERT INTO clients (firstname, lastname, email, comment)
                     VALUES ('{$firstname}', '{$lastname}', '{$email}', '{$comment}')";
 
-                
+                 //confirmation
+                 if (mysqli_query($conn, $sql)) {
+                    echo "Thank you for submitting your application.";
+                } else {
+                    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+                }
 
                 //close connection 
                 mysqli_close($conn);
