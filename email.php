@@ -27,7 +27,7 @@
             
             <textarea name=”comment” rows=”4″ cols=”20″> </textarea><br><br> 
             
-            <input class="button" type="submit" value="Submit Inscription"> <!--checks function to verify for empty form-->
+            <input class="button" type="submit" value="Submit"> 
 
         </form>
 
