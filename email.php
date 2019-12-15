@@ -12,7 +12,11 @@
         <script src="Javascripts/lettersOnly.js"></script>
         
         <form name = "webinfo" action="action.php" method="POST">
-
+        <!-- This form posts to	action.php,	and	the	page	
+        action.php can access the posted form data using	
+        the	names of the input elements (“name”	and	“age”)
+        like so: $_POST[‘name’]	and	$_POST[‘age’]-->
+        
             <br>First Name:<br>
             <input name="firstname" id="firstname" placeholder="firstname" onkeyup="lettersOnly(this)">
             

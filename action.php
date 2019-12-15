@@ -8,6 +8,8 @@
 
     <body>
         <div class="center">
+
+             Hi <?php echo htmlspecialchars($_POST['firstname']); ?>
          
             <?php 
                 //login credentials to db
