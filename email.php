@@ -38,6 +38,9 @@
         <br>
         <a href="index.php">Dog facts</a>
         <br>
+
+        <a href="blinkled.php">Blink the PIN 22</a>
+        <br>
         
     </body>
 </html>
