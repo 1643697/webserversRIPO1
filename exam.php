@@ -6,17 +6,15 @@
 
 
 	<body>
-		<h1> heres a title</h1>
-		
+		<h1>
         
-
          <?php 
          
          echo ‘Hello world’;
-         
+
          ?> 
 
-
+        </h1>
         
 
 
