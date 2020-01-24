@@ -24,7 +24,7 @@
 
       <div class="container-fluid text-center liveimage">
 
-         <div><img id="mjpeg_dest" onclick="toggle_fullscreen(this);" src="/html/cam_pic.php?time=1579883081357&amp;pDelay=16666"></div>
+         <div><img id="mjpeg_dest" onclick="toggle_fullscreen(this);" src="/html/min.php"></div>
 
       </div>  
 
