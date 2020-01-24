@@ -20,6 +20,8 @@
                 Your dog is as smart as a <strong> 2-year-old toddler.</strong>
                 There is a reason your tot and your pup get along so well: <br>they speak the same language. Or at least, they likely understand roughly the same number of words and gestures, 250!
         </p>
+
+        <img id="mjpeg_dest" onclick="toggle_fullscreen(this);" src="html/cam_pic.php?time=1579881933588&amp;pDelay=16666">
         
         <h3>Fact 2</h3>
         <h4>Most Popular Dog breeds in Order</h3>
