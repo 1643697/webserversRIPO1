@@ -16,7 +16,7 @@
          </div>
       </div>
 	        <div class="container-fluid text-center liveimage">
-         <div><img id="mjpeg_dest" onclick="toggle_fullscreen(this);" src="cam_pic.php?time=1579884153855&amp;pDelay=16666"></div>
+         <div><img id="mjpeg_dest" onclick="toggle_fullscreen(this);" src="/html/cam_pic.php?time=1579884153855&amp;pDelay=16666"></div>
          <div id="main-buttons">
             <input id="video_button" type="button" class="btn btn-primary" value="record video start">
             <input id="image_button" type="button" class="btn btn-primary" value="record image">
