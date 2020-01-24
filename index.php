@@ -21,25 +21,11 @@
                 There is a reason your tot and your pup get along so well: <br>they speak the same language. Or at least, they likely understand roughly the same number of words and gestures, 250!
         </p>
        
-         <div><img id="mjpeg_dest" onclick="toggle_fullscreen(this);" src="cam_pic.php?time=1579883016041&amp;pDelay=16666"></div>
-         <div id="main-buttons">
-            <input id="video_button" type="button" class="btn btn-primary" value="record video start">
-            <input id="image_button" type="button" class="btn btn-primary" value="record image">
-            <input id="timelapse_button" type="button" class="btn btn-primary" value="timelapse start">
-            <input id="md_button" type="button" class="btn btn-primary" value="motion detection start">
-            <input id="halt_button" type="button" class="btn btn-danger" value="stop camera">
-         </div>
-      </div>
 
       <div class="container-fluid text-center liveimage">
+      
          <div><img id="mjpeg_dest" onclick="toggle_fullscreen(this);" src="/html/cam_pic.php?time=1579883081357&amp;pDelay=16666"></div>
-         <div id="main-buttons">
-            <input id="video_button" type="button" class="btn btn-primary" value="record video start">
-            <input id="image_button" type="button" class="btn btn-primary" value="record image">
-            <input id="timelapse_button" type="button" class="btn btn-primary" value="timelapse start">
-            <input id="md_button" type="button" class="btn btn-primary" value="motion detection start">
-            <input id="halt_button" type="button" class="btn btn-danger" value="stop camera">
-         </div>
+
       </div>   
 
     
