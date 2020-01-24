@@ -28,7 +28,7 @@
 
       </div>  
 
-      <iframe width=”640” height=”360” src="/html/cam_pic.php" width="640" height="480" frameborder="0" allowfullscreen></iframe> 
+      <iframe width=”640” height=”360” src="/html/cam_pic.php?time=1579883081357&amp;pDelay=16666" width="640" height="480" frameborder="0" allowfullscreen></iframe> 
 
     
         <h3>Fact 2</h3>
